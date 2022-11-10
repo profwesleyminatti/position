@@ -10,16 +10,33 @@ body {
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
+    background-color: black;
 }
 
 .exemplo1 {
     background-color: blue;
+    position: fixed;
+    right: 10px;
+    top: 10px;
 }
 
 .exemplo2 {
     background-color: green;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .exemplo3 {
     background-color: red;
+    position: relative;
+}
+
+.interno {
+    position: sticky;
+    transform: translate(50%, 50%);
+    bottom: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: gold;
 }
