@@ -1,0 +1,25 @@
+body {
+    height: 300vh;
+}
+
+.exemplo {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    color: wheat;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.exemplo1 {
+    background-color: blue;
+}
+
+.exemplo2 {
+    background-color: green;
+}
+
+.exemplo3 {
+    background-color: red;
+}
